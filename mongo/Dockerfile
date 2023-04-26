@@ -1,4 +1,4 @@
-FROM mongo:5
+FROM ppc64le/mongodb
 
 COPY *.js /docker-entrypoint-initdb.d/
 
