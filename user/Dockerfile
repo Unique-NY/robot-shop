@@ -1,4 +1,4 @@
-FROM node:14
+FROM ppc64le/node:14.0
 
 ENV INSTANA_AUTO_PROFILE true
 
