@@ -1,4 +1,4 @@
-FROM mysql:5.7
+FROM ppc64le/mariadb:10.5.7
 
 VOLUME /data
 
