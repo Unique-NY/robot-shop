@@ -1,4 +1,4 @@
-FROM fluentd
+FROM ppc64le/fluentd
 USER root
 RUN apk update && \
     apk add --virtual .build-dependencies build-base ruby-dev
