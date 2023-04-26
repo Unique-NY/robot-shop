@@ -1,4 +1,4 @@
-FROM alpine AS build
+FROM ppc64le/alpine AS build
 ARG KEY
 
 WORKDIR /instana
@@ -10,7 +10,7 @@ ENV ARTI_PATH='artifact-public.instana.io/artifactory/shared/com/instana/nginx_t
 
 
 
-FROM nginx:1.21.6
+FROM ppc64le/nginx:1.21.6
 
 EXPOSE 8080
 
