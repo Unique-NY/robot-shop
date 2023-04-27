@@ -15,7 +15,7 @@ RUN mvn package
 #
 # Run
 #
-FROM ppc64le/openjdk:8-jdk
+FROM ibmjava:8
 
 EXPOSE 8080
 
